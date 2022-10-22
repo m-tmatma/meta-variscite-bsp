@@ -75,4 +75,4 @@ pkg_postinst:kernel-devicetree:append:imx8qm-var-som () {
 }
 
 KERNEL_VERSION_SANITY_SKIP="1"
-COMPATIBLE_MACHINE = "(mx8-nxp-bsp)"
+COMPATIBLE_MACHINE = "(mx6-nxp-bsp|mx8-nxp-bsp)"
